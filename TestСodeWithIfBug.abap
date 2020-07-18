@@ -6,10 +6,10 @@
    
     field-symbols: <lt_data> type ztype3.
 
-      loop at <lt_date> assigning <ls_data>.
-	      if <ls_data>-zfield IS INITIAL.
-		lvtest = lvtest / <ls_data>-zfield.
-	      endif.
-      endloop.
+    loop at <lt_date> assigning <ls_data>.
+	    if <ls_data>-zfield IS INITIAL.
+	    	lvtest = lvtest / <ls_data>-zfield.
+	    endif.
+    endloop.
 
   endmethod.
