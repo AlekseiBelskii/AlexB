@@ -1,4 +1,4 @@
-  method testARA4.
+  method TestARA.
     
     data:
       local_table_test    type ztype1, 
