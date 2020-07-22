@@ -1,4 +1,4 @@
-  method count_total_data.
+  method TestARA.
     
 	data:
     lv_test   type ztype1,
